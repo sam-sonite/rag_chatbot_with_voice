@@ -32,6 +32,12 @@ https://github.com/user-attachments/assets/0faecd12-116d-47b6-bd3c-ad453746b4a7
 
 ---
 
+## 🧠 How It Works/flow chart
+
+![Untitled-2024-11-15-1903](https://github.com/user-attachments/assets/9aade3aa-8887-4908-828f-575de3f00fc0)
+
+
+---
 ---
 
 ## 📁 Folder Structure
@@ -121,12 +127,6 @@ If it comes from PDF:
 
 ---
 
-## 🧠 How It Works/flow chart
-
-![Untitled-2024-11-15-1903](https://github.com/user-attachments/assets/9aade3aa-8887-4908-828f-575de3f00fc0)
-
-
----
 
 ## 🧪 Sample Questions 
 
