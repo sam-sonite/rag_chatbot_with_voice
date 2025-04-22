@@ -110,13 +110,9 @@ If it comes from PDF:
 
 ---
 
-## 🧠 How It Works
+## 🧠 How It Works/flow chart
 
-1. Accepts user input (text or speech)
-2. Routes query to vector DB or web
-3. Retrieves and formats context
-4. Prompts the local LLM (Ollama)
-5. Returns answer via text + voice
+![Untitled-2024-11-15-1903](https://github.com/user-attachments/assets/0ca39c71-c421-45ea-96db-e9ddce0eca1b)
 
 ---
 
