@@ -21,6 +21,17 @@ A fully local, voice-enabled, retrieval-augmented chatbot built using **LangChai
 ![Python Dotenv](https://img.shields.io/badge/python--dotenv-Env%20Management-lightgrey?logo=python&logoColor=white)
 
 ---
+
+## 🎥 Video Demo
+
+
+
+https://github.com/user-attachments/assets/0faecd12-116d-47b6-bd3c-ad453746b4a7
+
+
+
+---
+
 ---
 
 ## 📁 Folder Structure
@@ -126,12 +137,6 @@ If it comes from PDF:
 
 ---
 
-## 🎥 Video Demo
-
-
-https://github.com/user-attachments/assets/d121fc48-f13b-4769-a6fe-d0c6b6e8987b
-
----
 
 ## 🧰 Tech Stack
 
