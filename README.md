@@ -125,15 +125,7 @@ If the PDF doesn’t contain the answer, the bot:
 If it comes from PDF:  
   *"According to the file provided..."*
 
----
 
-
-## 🧪 Sample Questions 
-
-- "What is LangChain used for?"
-- "What are the types of LangChain agents?"
-- "Summarize the document on AI in education."
-- "What is the weather in New York?"
 
 ---
 
