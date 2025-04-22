@@ -117,12 +117,19 @@ If it comes from PDF:
 
 ---
 
-## 🧪 Sample Questions
+## 🧪 Sample Questions 
 
 - "What is LangChain used for?"
 - "What are the types of LangChain agents?"
 - "Summarize the document on AI in education."
 - "What is the weather in New York?"
+
+---
+
+## 🎥 Video Demo
+
+
+https://github.com/user-attachments/assets/d121fc48-f13b-4769-a6fe-d0c6b6e8987b
 
 ---
 
