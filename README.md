@@ -112,7 +112,8 @@ If it comes from PDF:
 
 ## 🧠 How It Works/flow chart
 
-![Untitled-2024-11-15-1903](https://github.com/user-attachments/assets/0ca39c71-c421-45ea-96db-e9ddce0eca1b)
+![Untitled-2024-11-15-1903](https://github.com/user-attachments/assets/9aade3aa-8887-4908-828f-575de3f00fc0)
+
 
 ---
 
