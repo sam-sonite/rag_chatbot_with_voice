@@ -21,3 +21,125 @@ A fully local, voice-enabled, retrieval-augmented chatbot built using **LangChai
 ![Python Dotenv](https://img.shields.io/badge/python--dotenv-Env%20Management-lightgrey?logo=python&logoColor=white)
 
 ---
+---
+
+## 📁 Folder Structure
+
+```
+rag_chatbot_with_speach/
+├── rag/
+│   ├── ollama_llm.py
+│   ├── graph_workflow.py
+│   ├── prompts.py
+│   ├── vectorstore.py
+│   ├── embeddings.py
+│   ├── loaders.py
+│   ├── tavily_search.py
+│   ├── router.py
+│   └── utils.py
+├── voice.py
+├── run_once.py
+├── frontend/
+│   └── app.py
+├── data/
+│   ├── documents/        # Place PDFs here
+│   └── structured.db     # Optional SQLite data
+├── .env                  # Env variables (Tavily key)
+├── requirements.txt
+```
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone and Setup
+
+```bash
+git clone https://github.com/your-username/rag_chatbot_with_speach.git
+cd rag_chatbot_with_speach
+python -m venv env
+source env/bin/activate  # or .\env\Scripts\activate on Windows
+pip install -r requirements.txt
+```
+
+### 2. Add your `.env` file
+
+Create a `.env` file in the root:
+
+```env
+TAVILY_API_KEY=your_tavily_api_key_here
+```
+
+---
+
+## 📄 Embed PDF Documents
+
+Put your files in `data/documents/` and run:
+
+```bash
+python run_once.py
+```
+
+---
+
+## 💬 Run the Chatbot
+
+```bash
+streamlit run frontend/app.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 🎙 Input Modes
+
+- 🎤 **Voice input** via microphone
+- ⌨️ **Keyboard input** via Streamlit
+
+---
+
+## 🌐 Web Search Fallback
+
+If the PDF doesn’t contain the answer, the bot:
+- Uses **Tavily API** for web search
+- Returns a result like:  
+  *"According to the web..."*  
+If it comes from PDF:  
+  *"According to the file provided..."*
+
+---
+
+## 🧠 How It Works
+
+1. Accepts user input (text or speech)
+2. Routes query to vector DB or web
+3. Retrieves and formats context
+4. Prompts the local LLM (Ollama)
+5. Returns answer via text + voice
+
+---
+
+## 🧪 Sample Questions
+
+- "What is LangChain used for?"
+- "What are the types of LangChain agents?"
+- "Summarize the document on AI in education."
+- "What is the weather in New York?"
+
+---
+
+## 🧰 Tech Stack
+
+| Component         | Description                      |
+|------------------|----------------------------------|
+| LangChain        | RAG & orchestration              |
+| LangGraph        | Graph-based query logic          |
+| Ollama           | Local LLM (Mistral, LLaMA etc.)  |
+| Streamlit        | Frontend web UI                  |
+| Tavily API       | Live web search fallback         |
+| Nomic Embeddings | Document vectorizer              |
+| Pyttsx3          | Text-to-speech output            |
+| SpeechRecognition| Speech-to-text input             |
+
+---
