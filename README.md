@@ -4,7 +4,6 @@ A fully local, voice-enabled, retrieval-augmented chatbot built using **LangChai
 
 ---
 
-## 📛 Badges
 
 ![LangChain](https://img.shields.io/badge/LangChain-0.3%2B-2ca5a5?logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.0.x-ffb347?logo=python&logoColor=white)
